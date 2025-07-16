@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit075e6de8875700be129a7405f578104b
+class ComposerStaticInit43945a442f5d3dff38b29c97e5a9b427
 {
     public static $prefixLengthsPsr4 = array (
         'V' => 
@@ -130,7 +130,6 @@ class ComposerStaticInit075e6de8875700be129a7405f578104b
         'VisualComposer\\Modules\\Editors\\Attributes\\PageDesignOptions\\Controller' => __DIR__ . '/../..' . '/visualcomposer/Modules/Editors/Attributes/PageDesignOptions/Controller.php',
         'VisualComposer\\Modules\\Editors\\Attributes\\Url\\Controller' => __DIR__ . '/../..' . '/visualcomposer/Modules/Editors/Attributes/Url/Controller.php',
         'VisualComposer\\Modules\\Editors\\Attributes\\WpEditor' => __DIR__ . '/../..' . '/visualcomposer/Modules/Editors/Attributes/WpEditor.php',
-        'VisualComposer\\Modules\\Editors\\Backend\\EditorController' => __DIR__ . '/../..' . '/visualcomposer/Modules/Editors/Backend/EditorController.php',
         'VisualComposer\\Modules\\Editors\\Backend\\SaveSetEditorController' => __DIR__ . '/../..' . '/visualcomposer/Modules/Editors/Backend/SaveSetEditorController.php',
         'VisualComposer\\Modules\\Editors\\DataAjax\\Controller' => __DIR__ . '/../..' . '/visualcomposer/Modules/Editors/DataAjax/Controller.php',
         'VisualComposer\\Modules\\Editors\\DataAjax\\PostDataController' => __DIR__ . '/../..' . '/visualcomposer/Modules/Editors/DataAjax/PostDataController.php',
@@ -297,7 +296,6 @@ class ComposerStaticInit075e6de8875700be129a7405f578104b
         'VisualComposer\\Modules\\Vendors\\Plugins\\WooCommerceStripeController' => __DIR__ . '/../..' . '/visualcomposer/Modules/Vendors/Plugins/WooCommerceStripeController.php',
         'VisualComposer\\Modules\\Vendors\\Plugins\\WpFormsController' => __DIR__ . '/../..' . '/visualcomposer/Modules/Vendors/Plugins/WpFormsController.php',
         'VisualComposer\\Modules\\Vendors\\Plugins\\WpJobsManagerController' => __DIR__ . '/../..' . '/visualcomposer/Modules/Vendors/Plugins/WpJobsManagerController.php',
-        'VisualComposer\\Modules\\Vendors\\Plugins\\WpbakeryController' => __DIR__ . '/../..' . '/visualcomposer/Modules/Vendors/Plugins/WpbakeryController.php',
         'VisualComposer\\Modules\\Vendors\\Plugins\\WpmlController' => __DIR__ . '/../..' . '/visualcomposer/Modules/Vendors/Plugins/WpmlController.php',
         'VisualComposer\\Modules\\Vendors\\Plugins\\YoastController' => __DIR__ . '/../..' . '/visualcomposer/Modules/Vendors/Plugins/YoastController.php',
         'VisualComposer\\Modules\\Vendors\\Themes\\GeneratePressController' => __DIR__ . '/../..' . '/visualcomposer/Modules/Vendors/Themes/GeneratePressController.php',
@@ -311,9 +309,9 @@ class ComposerStaticInit075e6de8875700be129a7405f578104b
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit075e6de8875700be129a7405f578104b::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit075e6de8875700be129a7405f578104b::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit075e6de8875700be129a7405f578104b::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit43945a442f5d3dff38b29c97e5a9b427::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit43945a442f5d3dff38b29c97e5a9b427::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit43945a442f5d3dff38b29c97e5a9b427::$classMap;
 
         }, null, ClassLoader::class);
     }
