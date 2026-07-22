@@ -3,8 +3,8 @@ Contributors: VisualComposer,veidenbaums,nikitahl,orkunaybek,mrdollar4444,sqarf,
 Tags: page builder, drag and drop website builder, popup builder, landing page builder, theme builder
 Requires PHP: 7.4
 Requires at least: 5.5
-Tested up to: 6.8.2
-Stable tag: 45.15.0
+Tested up to: 7.0.2
+Stable tag: 45.16.0
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -222,6 +222,17 @@ It is both! Visual Composer’s free version works like a page builder where you
 
 == Changelog ==
 
+= 45.16.0 =
+*Release Date - 2026-07-22*
+
+### Free:
+- Compatibility: Visual Composer works properly with WooCommerce 10.9.1
+- Compatibility: Visual Composer works properly with BackWPup plugin
+- Compatibility: Visual Composer works properly with Essential Grid
+- Fix: Resolved WooCommerce Stripe Gateway fatal error
+- Fix: Fixed broken Checkout page when Storefront theme is installed
+- Fix: Resolved sitewide header/footer style issues
+
 = 45.15.0 =
 *Release Date - 2025-08-06*
 
@@ -289,6 +300,7 @@ It is both! Visual Composer’s free version works like a page builder where you
 - Fix: Half outline button is available in Visual Composer Hub
 - Fix: Popups work properly in header and footer layouts
 - Fix: Deletion of global templates is being handled properly
+
 - Fix: Classic tab background works properly
 
 = 45.9.0 =
